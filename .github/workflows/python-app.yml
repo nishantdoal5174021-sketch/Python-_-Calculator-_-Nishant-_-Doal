@@ -1,0 +1,25 @@
+print("Online Python Calculator")
+print("Add")
+print("Subtract")
+print("Multiply")
+print("Divide")
+A=((input)("Choose one (THIS IS CASE SENSITIVE)""\n"))
+if A == "Add":
+    B=int(input("Number - 1""\n"))
+    C=int(input("Number - 2""\n"))
+    print("The Answer Is :",B+C,"\n")
+    
+if A == "Subtract":
+    B=int(input("Number - 1""\n"))
+    C=int(input("Number - 2""\n"))
+    print("The Answer Is :",B-C,"\n")
+    
+if A == "Multiply":
+    B=int(input("Number - 1""\n"))
+    C=int(input("Number - 2""\n"))
+    print("The Answer Is :",B*C,"\n")
+    
+if A == "Divide":
+    B=int(input("Number - 1""\n"))
+    C=int(input("Number - 2""\n"))
+    print("The Answer Is :",B/C,"\n")
